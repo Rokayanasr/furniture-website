@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>landing</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header-container">
+      <!-- nav -->
+      <nav id="navbar">
+        <nav class="navbar-container container">
+          <a href="/" class="home-link">
+            <div class="navbar-logo">
+              <img src="stocks/logo.png" alt="" />
+            </div>
+            E-shop
+          </a>
+          <button
+            type="button"
+            id="navbar-toggle"
+            aria-controls="navbar-menu"
+            aria-label="Toggle menu"
+            aria-expanded="false"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <div id="navbar-menu" aria-labelledby="navbar-toggle">
+            <ul class="navbar-links">
+              <li class="navbar-item">
+                <a class="navbar-link" href="shop.html">Products</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Inspirations</a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="#">Rooms</a>
+              </li>
+            </ul>
+          </div>
+          <div id="navbar-iconslist" aria-labelledby="navbar-toggle">
+            <ul class="navbar-icons">
+              <li class="navbar-item">
+                <a class="navbar-link" href="#"
+                  ><i
+                    class="fa fa-search"
+                    style="color: white"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="cart.html"
+                  ><i
+                    class="fa fa-shopping-cart"
+                    style="color: white"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+              <li class="navbar-item">
+                <a class="navbar-link" href="task/index.html"
+                  ><i
+                    class="fa fa-user-alt"
+                    style="color: white"
+                    aria-hidden="true"
+                  ></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </nav>
+      <!-- header content-->
+      <div class="header-content">
+        <div class="header-flex">
+          <div class="header-headline-flex">
+            <p class="header-headline">Make your house<br />into a home</p>
+            <ul>
+              <a href="#"
+                ><li>
+                  <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                  <p class="header-shop">Shop now</p>
+                </li></a
+              >
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="header-botton">
+        <div class="header-white-div">
+          <ul>
+            <li class="header-white-div-flex">
+              <i class="fa fa-shipping-fast" aria-hidden="true"></i>
+              <div>
+                <p class="header-white-div-headline">Free Shipping</p>
+                <p class="header-white-div-txt">on purchases over $399</p>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li class="header-white-div-flex">
+              <i class="fa fa-smile-beam" aria-hidden="true"></i>
+              <div>
+                <p class="header-white-div-headline">99% satisfied customers</p>
+                <p class="header-white-div-txt">our clients opinions speaks</p>
+              </div>
+            </li>
+          </ul>
+          <ul>
+            <li class="header-white-div-flex">
+              <i class="fa fa-user-shield" aria-hidden="true"></i>
+              <div>
+                <p class="header-white-div-headline">originality Guaranteed</p>
+                <p class="header-white-div-txt">
+                  2 years warranty for each product
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="slider-container">
+          <ul class="slider-item">
+            <li>
+              <a class="slider-link" href="#" onclick="prevImage()" id="previous">
+                <i class="fa fa-arrow-left-long" aria-hidden="true"></i>
+              </a>
+            </li>
+            <li>
+              <a class="slider-link" href="#" onclick="nextImage()" id="next">
+                <i class="fa fa-arrow-right-long" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section class="section1">
+      <div class="yellow-sofa">
+        <p>New collection<br />availabe now</p>
+        <a href="#">
+          <button>VIEW ALL</button>
+        </a>
+      </div>
+      <div class="blue-chair">
+        <p>redefining the<br />modern design</p>
+        <a href="#">
+          <button>CHECK MORE</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="section2-headline-botton-flex">
+        <p>Selected just for you</p>
+        <a href="#">
+          <button>SHOW MORE</button>
+        </a>
+      </div>
+      <div class="gallery-wrap">
+        <i id="backbtn" class="fas fa-arrow-left" aria-hidden="true"></i>
+        <div class="gallery">
+          <div>
+            <span><img src="stocks/slider/11.jpg" /></span>
+            <span><img src="stocks/slider/1-2.jpg" /></span>
+            <span><img src="stocks/slider/13.jpg" /></span>
+          </div>
+          <div>
+            <span><img src="stocks/slider/14.jpg" /></span>
+            <span><img src="stocks/slider/15.jpg" /></span>
+            <span><img src="stocks/slider/16.jpg" /></span>
+          </div>
+        </div>
+        <i id="nextbtn" class="fas fa-arrow-right" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <section class="section3">
+      <p class="section3-headline-why">Why you choose us</p>
+      <div class="section3-items-flex">
+        <ul>
+          <li class="section3-item-flex">
+            <i class="fa fa-shipping-fast" aria-hidden="true"></i>
+            <div>
+              <p class="section3-white-div-headline">Free Shipping</p>
+              <p class="section3-white-div-txt">
+                on purchases over $399<br />on purchases over $399
+              </p>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li class="section3-item-flex">
+            <i class="fa fa-smile-beam" aria-hidden="true"></i>
+            <div>
+              <p class="section3-white-div-headline">99% satisfied customers</p>
+              <p class="section3-white-div-txt">
+                our clients opinions speaks<br />our clients opinions speaks
+              </p>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li class="section3-item-flex">
+            <i class="fa fa-user-shield" aria-hidden="true"></i>
+            <div>
+              <p class="section3-white-div-headline">originality Guaranteed</p>
+              <p class="section3-white-div-txt">
+                2 years warranty for each product<br />
+                2 years warranty for each product
+              </p>
+            </div>
+          </li>
+        </ul>
+        <ul>
+          <li class="section3-item-flex">
+            <i class="fa fa-user-shield" aria-hidden="true"></i>
+            <div>
+              <p class="section3-white-div-headline">originality Guaranteed</p>
+              <p class="section3-white-div-txt">
+                2 years warranty for each product<br />our clients opinions
+                speaks
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section  class="section4">
+      <div class="section4-headline-botton-flex">
+        <a style="text-decoration: none" href="#">
+          <p style="color: black; font-size: x-large" class="section4-headline">
+            Products in today
+          </p>
+        </a>
+      </div>
+      <div class="gallery-wrap">
+        <i id="backbtn" class="fas fa-arrow-left" aria-hidden="true"></i>
+        <div class="gallery">
+          <div>
+            <span><img src="stocks/slider/14.jpg" /></span>
+            <span><img src="stocks/slider/15.jpg" /></span>
+            <span><img src="stocks/slider/16.jpg" /></span>
+          </div>
+          <div>
+            <span><img src="stocks/slider/11.jpg" /></span>
+            <span><img src="stocks/slider/1-2.jpg" /></span>
+            <span><img src="stocks/slider/13.jpg" /></span>
+          </div>
+        </div>
+        <i id="nextbtn" class="fas fa-arrow-right" aria-hidden="true"></i>
+      </div>
+    </section>
+
+    <div class="footer">
+      <div class="content">
+        <div class="heading">
+          <h2>Faraz<sup>™</sup></h2>
+          <h6 style="font-weight: 400; font-size: smaller">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Praesentium voluptas fugit quae? Ipsam fuga laudantium facere ullam
+            eum qui modi cupiditate maxime tempora obcaecati! Cumque ut
+            perferendis quis alias vero?
+          </h6>
+        </div>
+        <div class="services">
+          <h4>Services</h4>
+          <p><a href="#">living room</a></p>
+          <p><a href="#">Dining room</a></p>
+          <p><a href="#">offices</a></p>
+          <p><a href="#">gardens</a></p>
+        </div>
+        <div class="social-media">
+          <h4>Social</h4>
+          <p>
+            <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+          </p>
+          <p>
+            <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+          </p>
+          <p>
+            <a href="https://github.com/farazc60"
+              ><i class="fab fa-github"></i> Github</a
+            >
+          </p>
+          <p>
+            <a href="https://www.facebook.com/codewithfaraz"
+              ><i class="fab fa-facebook"></i> Facebook</a
+            >
+          </p>
+          <p>
+            <a href="https://www.instagram.com/codewithfaraz"
+              ><i class="fab fa-instagram"></i> Instagram</a
+            >
+          </p>
+        </div>
+        <div class="links">
+          <h4>Quick links</h4>
+          <p><a href="#">Home</a></p>
+          <p><a href="#">About</a></p>
+          <p><a href="#">Blogs</a></p>
+          <p><a href="#">Contact</a></p>
+        </div>
+        <div class="details">
+          <h4 class="address">Address</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur <br />
+            adipisicing elit. Cupiditate, qui!
+          </p>
+          <h4 class="mobile">Mobile</h4>
+          <p><a href="#">+02-01112912733</a></p>
+          <h4 class="mail">Email</h4>
+          <p><a href="#">futrniture@gmail.com</a></p>
+        </div>
+      </div>
+      <footer>
+        <hr />
+        © 2022 codewithrokaya.
+      </footer>
+    </div>
+  </body>
+</html>

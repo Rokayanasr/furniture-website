@@ -1,0 +1,151 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(45, 37, 37);
+}
+.navbar ul{
+  float: right;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.navbar ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 20px;
+}
+.navbar ul li a{
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.navbar ul li:hover{
+  background-color:  #ff7360;
+}
+.navbar .logo{
+  float: left;
+  margin-left: 100px;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.navbar .logo-img{
+  float: left;
+  line-height: 60px;
+  margin: 10px;
+  width: 65px;
+}
+/*-----------------------------------------------------------*/
+.sconde{
+  background-color: #ff7360 ;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.sconde span{
+  padding-left: 100px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.work{
+  background-color: rgb(231, 235, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.our-work{
+text-align: center;
+align-items: center;
+
+}
+.our-work h1{
+  font-size: 40px;
+  padding: 20px 5px 10px 5px;
+}
+.our-work p{
+font-size: 20px;
+text-align: center;
+}
+.our-work .pra{
+  padding-bottom: 50px;
+}
+.contuct{
+  display: flex;
+
+}
+.contuct-content{
+flex-basis: 30%;
+margin: 50px 50px 0 30px;
+}
+.form{
+flex-basis: 70%;
+margin: 50px 50px 0 30px;
+}
+.form h1{
+padding-bottom:15px ;
+text-transform: capitalize;
+}
+.contuct-content p{
+  margin: 30px 0;
+}
+.contuct-content h1{
+  padding-bottom:15px ;
+  text-transform: capitalize;
+}
+.form input{
+  padding: 5px;
+  font-size: 15px;
+  margin-top: 15px;
+  width: 250px;
+  height: 30px;
+}
+.form textarea{
+  padding: 5px;
+  font-size: 15px;
+  width: 100%;
+  margin: 15px 0;
+}
+.btn{
+  margin: 20px 0 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  width: 25%;
+  height: 40px;
+  padding: 10px 5px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hr{
+  margin-top: 146px;
+}
+.link{
+  background-color: rgb(141, 136, 136);
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-size: 30px;
+}
+.link i{
+margin: 15px;
+cursor: pointer;
+}

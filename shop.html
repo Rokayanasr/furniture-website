@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shop</title>
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+</head>
+<body>
+    <!-- nav -->
+    <nav id="navbar">
+      <nav class="navbar-container container-n">
+        <a href="index.html" class="home-link">
+          <div class="navbar-logo">
+            <img src="stocks/logo.png" alt="" />
+          </div>
+          E-shop
+        </a>
+        <button
+          type="button"
+          id="navbar-toggle"
+          aria-controls="navbar-menu"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div id="navbar-menu" aria-labelledby="navbar-toggle">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="shop.html">Products</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">Inspirations</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">Rooms</a>
+            </li>
+          </ul>
+        </div>
+        <div id="navbar-iconslist" aria-labelledby="navbar-toggle">
+          <ul class="navbar-icons">
+            <li class="navbar-item">
+              <a class="navbar-link" href="#"
+                ><i
+                  class="fa fa-search"
+                  style="color: white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="cart.html"
+                ><i
+                  class="fa fa-shopping-cart"
+                  style="color: white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="task/index.html"
+                ><i
+                  class="fa fa-user-alt"
+                  style="color: white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+
+  <div class="container">
+        <div class="sidebar">
+          <div class="logo">
+            <i class="fa fa-home" aria-hidden="true"></i>
+            <p>/ All products</p>
+          </div>
+          <input type="text" id="txtSearch" placeholder="Search Product..." />
+          <div class="category-r">
+          <h3>Product Type</h3>
+          <ul class="category-list">
+  
+          </ul>
+        </div>
+        <div class="price-r">
+          <h3>Price Range</h3>
+          <div class="price">
+            <input type="range" id="priceRange" />
+            <span class="priceValue">500</span>
+          </div>
+        </div>
+        </div>
+        <div class="content">
+          <div class="products"></div>
+        </div>
+      </div>
+
+      <div class="container-pagination">
+        <div class="pagination">
+          <button class="btn1" onclick="backbtn()" name="page"><i class='bx bx-right-arrow-alt'></i>Previous</button>
+          
+          <ul>
+            <a href=""><li class="link active"  value="1" onclick = "activelink()">1</li></a>
+            <a href=""><li class="link "  value="2" onclick = "activelink()">2</li></a>
+            <a href=""><li class="link "  value="3" onclick = "activelink()">3</li></a>
+          </ul>
+
+          <button class="btn2" onclick="nextbtn()">next<i class='bx bx-left-arrow-alt' ></i></button>
+        </div>
+  
+      </div>
+
+
+      <div class="footer">
+        <div class="content">
+          <div class="heading">
+            <h2>Faraz<sup>™</sup></h2>
+            <h6 style="font-weight: 400; font-size: smaller">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Praesentium voluptas fugit quae? Ipsam fuga laudantium facere ullam
+              eum qui modi cupiditate maxime tempora obcaecati! Cumque ut
+              perferendis quis alias vero?
+            </h6>
+          </div>
+          <div class="services">
+            <h4>Services</h4>
+            <p><a href="#">living room</a></p>
+            <p><a href="#">Dining room</a></p>
+            <p><a href="#">offices</a></p>
+            <p><a href="#">gardens</a></p>
+          </div>
+          <div class="social-media">
+            <h4>Social</h4>
+            <p>
+              <a href="#"><i class="fab fa-linkedin"></i> Linkedin</a>
+            </p>
+            <p>
+              <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+            </p>
+            <p>
+              <a href="https://github.com/farazc60"
+                ><i class="fab fa-github"></i> Github</a
+              >
+            </p>
+            <p>
+              <a href="https://www.facebook.com/codewithfaraz"
+                ><i class="fab fa-facebook"></i> Facebook</a
+              >
+            </p>
+            <p>
+              <a href="https://www.instagram.com/codewithfaraz"
+                ><i class="fab fa-instagram"></i> Instagram</a
+              >
+            </p>
+          </div>
+          <div class="links">
+            <h4>Quick links</h4>
+            <p><a href="#">Home</a></p>
+            <p><a href="#">About</a></p>
+            <p><a href="#">Blogs</a></p>
+            <p><a href="#">Contact</a></p>
+          </div>
+          <div class="details">
+            <h4 class="address">Address</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur <br />
+              adipisicing elit. Cupiditate, qui!
+            </p>
+            <h4 class="mobile">Mobile</h4>
+            <p><a href="#">+02-01112912733</a></p>
+            <h4 class="mail">Email</h4>
+            <p><a href="#">futrniture@gmail.com</a></p>
+          </div>
+        </div>
+        <footer>
+          <hr />
+          © 2022 codewithrokaya.
+        </footer>
+      </div>
+      
+      <script src="shop.js"></script>
+</body>
+</html>

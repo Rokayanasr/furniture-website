@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/all.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav id="navbar">
+      <nav class="navbar-container container-n">
+        <a href="index.html" class="home-link">
+          <div class="navbar-logo">
+            <img src="stocks/logo.png" alt="" />
+          </div>
+          E-shop
+        </a>
+        <button
+          type="button"
+          id="navbar-toggle"
+          aria-controls="navbar-menu"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div id="navbar-menu" aria-labelledby="navbar-toggle">
+          <ul class="navbar-links">
+            <li class="navbar-item">
+              <a class="navbar-link" href="shop.html">Products</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">Inspirations</a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="#">Rooms</a>
+            </li>
+          </ul>
+        </div>
+        <div id="navbar-iconslist" aria-labelledby="navbar-toggle">
+          <ul class="navbar-icons">
+            <li class="navbar-item">
+              <a class="navbar-link" href="#"
+                ><i
+                  class="fa fa-search"
+                  style="color: white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="cart.html"
+                ><i
+                  class="fa fa-shopping-cart"
+                  style="color: white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+            <li class="navbar-item">
+              <a class="navbar-link" href="task/index.html"
+                ><i
+                  class="fa fa-user-alt"
+                  style="color: white"
+                  aria-hidden="true"
+                ></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </nav>
+
+    <header class="container">
+      <div class="header-headline-flex">
+        <p>Shopping cart</p>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </div>
+      <div class="table">
+        <table>
+          <tr class="table-grid-head">
+            <th>Product</th>
+            <th>Color</th>
+            <th>Size</th>
+            <th>Amount</th>
+            <th>Price</th>
+            <th></th>
+          </tr>
+          <tr class="table-grid-content">
+            <td>
+              <img
+                src="stocks/yellow-armchair-living-room-with-copy-space.jpg"
+              />
+              <span><h5>Sofa Furniture</h5></span>
+            </td>
+            <td>Yellow</td>
+            <td>XL</td>
+            <td class="count">
+              <span><h5 class="minus">-</h5></span>
+              <span><h5 class="number">1</h5></span>
+              <span><h5 class="plus">+</h5></span>
+            </td>
+            <td>$1246</td>
+            <td>x</td>
+          </tr>
+          <tr class="table-grid-content">
+            <td>
+              <img
+                src="stocks/yellow-armchair-living-room-with-copy-space.jpg"
+              />
+              <span><h5>Sofa Furniture</h5></span>
+            </td>
+            <td>Yellow</td>
+            <td>XL</td>
+            <td class="count">
+              <span><h5 class="minus">-</h5></span>
+              <span><h5 class="number">1</h5></span>
+              <span><h5 class="plus">+</h5></span>
+            </td>
+            <td>$1246</td>
+            <td>x</td>
+          </tr>
+          <tr class="table-grid-content">
+            <td>
+              <img
+                src="stocks/yellow-armchair-living-room-with-copy-space.jpg"
+              />
+              <span><h5>Sofa Furniture</h5></span>
+            </td>
+            <td>Yellow</td>
+            <td>XL</td>
+            <td class="count">
+              <span><h5 class="minus">-</h5></span>
+              <span><h5 class="number">1</h5></span>
+              <span><h5 class="plus">+</h5></span>
+            </td>
+            <td>$1246</td>
+            <td>x</td>
+          </tr>
+        </table>
+      </div>
+    
+      <div>
+        <i class="fa-solid fa-arrow-left"></i>
+      </div>
+    </header>
+
+    <script src="cart.js"></script>
+  </body>
+</html>

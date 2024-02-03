@@ -1,0 +1,88 @@
+*{
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: capitalize;
+}
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.navbar{
+  width: 100%;
+  height: 60px;
+  background-color: rgb(45, 37, 37);
+}
+.navbar ul{
+  float: right;
+  margin-right: 100px;
+  cursor: pointer;
+}
+.navbar ul li{
+  display: inline-block;
+  line-height: 60px;
+  margin: 0 20px;
+}
+.navbar ul li a{
+  color: white;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 15px;
+}
+.navbar ul li:hover{
+  background-color:  #ff7360;
+}
+.navbar .logo{
+  float: left;
+  margin-left: 100px;
+  line-height: 60px;
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+.navbar .logo-img{
+  float: left;
+  line-height: 60px;
+  margin: 10px;
+  width: 65px;
+}
+/*-----------------------------------------------------------*/
+.sconde{
+  background-color: #ff7360 ;
+  height: 50px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+.sconde span{
+  padding-left: 100px;
+  font-size: 25px;
+  font-weight: 800;
+}
+.work{
+  background-color: rgb(231, 235, 238);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.our-work{
+text-align: center;
+align-items: center;
+
+}
+.our-work h1{
+  font-size: 40px;
+  padding: 20px 5px 10px 5px;
+}
+.our-work p{
+font-size: 20px;
+text-align: center;
+}
+.our-work .pra{
+  padding-bottom: 50px;
+}
